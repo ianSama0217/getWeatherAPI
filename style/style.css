@@ -1,0 +1,44 @@
+body {
+  background-color: #ddedec;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body h1 {
+  color: #2f4948;
+  font-size: 3rem;
+}
+body select {
+  width: 12rem;
+  height: 2rem;
+  font-size: 1.5rem;
+}
+body .area {
+  background-color: white;
+  width: 25rem;
+  height: 15rem;
+  display: flex;
+  margin-top: 2rem;
+  padding: 1rem;
+  position: relative;
+  border-radius: 8px;
+}
+body .area .leftSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+body .area .leftSide h3 {
+  font-size: 2rem;
+}
+body .area .leftSide p {
+  font-size: 1.25rem;
+  margin: 0;
+}
+body .area .rightSide {
+  width: 12rem;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}/*# sourceMappingURL=style.css.map */

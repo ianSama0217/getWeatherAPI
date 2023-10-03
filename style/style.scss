@@ -1,0 +1,50 @@
+body {
+  background-color: #ddedec;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    color: #2f4948;
+    font-size: 3rem;
+  }
+
+  select {
+    width: 12rem;
+    height: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .area {
+    background-color: white;
+    width: 25rem;
+    height: 15rem;
+    display: flex;
+    margin-top: 2rem;
+    padding: 1rem;
+    position: relative; //讓img定位用
+    border-radius: 8px;
+
+    .leftSide {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+
+      h3 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1.25rem;
+        margin: 0;
+      }
+    }
+
+    .rightSide {
+      width: 12rem;
+      position: absolute;
+      bottom: 5%;
+      right: 5%;
+    }
+  }
+}
